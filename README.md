@@ -1,6 +1,6 @@
 # Startbootstrap::Freelancer::Rails
 
-TODO: Write a gem description
+This gem will install startbootstrap-freelancer, a twitter/bootstrap theme into your Ruby on Rails Application
 
 ## Installation
 
@@ -18,13 +18,25 @@ Or install it yourself as:
 
     $ gem install startbootstrap-freelancer-rails
 
+Add this line to your app/assets/javascripts/application.js
+
+```ruby
+//= require startbootstrap-freelancer
+```
+
+AND add this line to your app/assets/stylesheets/application.css
+
+```ruby
+*= require startbootstrap-freelancer
+```
+
 ## Usage
 
-TODO: Write usage instructions here
+please refer to : https://startbootstrap.com/template-overviews/freelancer/
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/startbootstrap-freelancer-rails/fork )
+1. Fork it ( https://github.com/yusdirman/startbootstrap-freelancer-rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
