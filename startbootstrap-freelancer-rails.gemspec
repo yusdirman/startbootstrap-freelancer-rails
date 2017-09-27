@@ -22,6 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
 
   spec.add_dependency 'jquery-rails', '~> 1.12', '>= 1.12.5'
-  spec.add_dependency 'popper_js', '~> 1.12', '>= 1.12.5'
-  spec.add_dependency 'jquery-easing-rails', '~> 0.0.2'
+  spec.add_dependency 'font-awesome-rails'
 end

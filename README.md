@@ -2,6 +2,13 @@
 
 This gem will install startbootstrap-freelancer, a twitter/bootstrap theme into your Ruby on Rails Application
 
+## Requirements
+
+1. jquery (added in dependencies)
+2. twitter/bootstrap
+3. popper_js
+4. jquery-easing-rails
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -11,12 +18,14 @@ gem 'startbootstrap-freelancer-rails'
 ```
 
 And then execute:
-
+```
     $ bundle
+```
 
 Or install it yourself as:
-
+```
     $ gem install startbootstrap-freelancer-rails
+```
 
 Add this line to your app/assets/javascripts/application.js
 
