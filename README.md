@@ -4,10 +4,10 @@ This gem will install startbootstrap-freelancer, a twitter/bootstrap theme into 
 
 ## Requirements
 
-1. jquery (added in dependencies)
-2. twitter/bootstrap
-3. popper_js
-4. jquery-easing-rails
+1. jquery (added in dependencies), https://rubygems.org/gems/jquery-rails
+2. twitter/bootstrap, https://rubygems.org/gems/bootstrap-sass
+3. popper_js, https://rubygems.org/gems/popper_js
+4. jquery-easing-rails, https://rubygems.org/gems/jquery-easing-rails
 
 ## Installation
 
