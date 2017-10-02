@@ -21,6 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
 
-  spec.add_dependency 'jquery-rails', '~> 1.12', '>= 1.12.5'
+  spec.add_dependency 'jquery-rails'
   spec.add_dependency 'font-awesome-rails'
+  spec.add_dependency 'jquery-easing-rails'
+  spec.add_dependency 'popper_js'
 end
