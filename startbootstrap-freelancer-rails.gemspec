@@ -24,5 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'jquery-rails'
   spec.add_runtime_dependency 'font-awesome-rails'
   spec.add_runtime_dependency 'jquery-easing-rails'
+  spec.add_runtime_dependency 'bootstrap-sass'
   spec.add_runtime_dependency 'popper_js'
 end
