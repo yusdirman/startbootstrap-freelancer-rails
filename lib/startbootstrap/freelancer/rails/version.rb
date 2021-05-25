@@ -1,7 +1,7 @@
 module Startbootstrap
   module Freelancer
     module Rails
-      VERSION = "0.1.1"
+      VERSION = "6.0.6"
     end
   end
 end
