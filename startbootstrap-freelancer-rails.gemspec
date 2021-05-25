@@ -18,12 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler", "~> 2.2.10"
+  spec.add_development_dependency "rake", "~> 12.3.3"
 
-  spec.add_runtime_dependency 'jquery-rails'
-  spec.add_runtime_dependency 'font-awesome-rails'
-  spec.add_runtime_dependency 'jquery-easing-rails'
-  spec.add_runtime_dependency 'bootstrap', '~> 4.0.0.beta'
-  spec.add_runtime_dependency 'popper_js'
+  spec.add_runtime_dependency 'bootstrap', '~> 4.6.0'
 end
